@@ -5,6 +5,8 @@ build: clean dist build-tokens build-scss
 
 dist:
 	mkdir -p dist/paragon
+	cp -r fonts dist/fonts
+
 
 build-tokens:
 	paragon build-tokens --source ./paragon/tokens/ --build-dir ./paragon/build -t light
