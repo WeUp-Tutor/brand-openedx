@@ -1,1 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Roboto+Mono&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Roboto+Mono&display=swap');
+
+
+
+@font-face {
+   font-family: 'Barlow';
+   src: url('https://tutor-cyril.weup.in/static/custom-theme/fonts/Barlow/Barlow-Regular.eot');
+   src: url('https://tutor-cyril.weup.in/static/custom-theme/fonts/Barlow/Barlow-Regular.eot') format('embedded-opentype'),
+        url('https://tutor-cyril.weup.in/static/custom-theme/fonts/Barlow/Barlow-Regular.woff2') format('woff2'),
+        url('https://tutor-cyril.weup.in/static/custom-theme/fonts/Barlow/Barlow-Regular.woff') format('woff'),
+        url('https://tutor-cyril.weup.in/static/custom-theme/fonts/Barlow/Barlow-Regular.ttf') format('truetype'),
+        url('https://tutor-cyril.weup.in/static/custom-theme/fonts/Barlow/Barlow-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      'Barlow', Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji" !default;  
+$font-family-serif:           'Barlow', Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji" !default;  
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-sans-serif !default;
+// stylelint-enable value-keyword-case
+
+
