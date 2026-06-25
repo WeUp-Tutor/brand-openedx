@@ -672,6 +672,14 @@
   --pgn-typography-form-control-file-font-weight: var(--pgn-typography-form-input-font-weight);
   --pgn-size-form-control-select-height-lg: var(--pgn-size-form-input-height-lg);
 }
+@font-face {
+  font-family: "Barlow";
+  src: url("~@edx/brand/fonts/Barlow/Barlow-Regular.eot");
+  src: url("~@edx/brand/fonts/Barlow/Barlow-Regular.eot") format("embedded-opentype"), url("~@edx/brand/fonts/Barlow/Barlow-Regular.woff2") format("woff2"), url("~@edx/brand/fonts/Barlow/Barlow-Regular.woff") format("woff"), url("~@edx/brand/fonts/Barlow/Barlow-Regular.ttf") format("truetype"), url("~@edx/brand/fonts/Barlow/Barlow-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 body, * {
-  font-family: var(--pgn-typography-font-family-sans-serif) !important;
+  font-family: "Barlow", Inter, "Helvetica Neue", Arial, sans-serif !important;
 }
