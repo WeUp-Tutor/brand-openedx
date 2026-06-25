@@ -5,3 +5,9 @@
 @use "./fonts";
 @use "./build/core/variables";
 // @use "./build/core/custom-media-breakpoints";
+
+
+body, * {
+  font-family: var(--pgn-typography-font-family-sans-serif) !important;
+}
+
