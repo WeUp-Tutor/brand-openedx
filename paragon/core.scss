@@ -4,10 +4,11 @@
 
 @use "./fonts";
 @use "./build/core/variables";
-// @use "./build/core/custom-media-breakpoints";
+
+@import "_fonts.scss";
 
 
 body, * {
-  font-family: var(--pgn-typography-font-family-sans-serif) !important;
+  font-family:  'Barlow', Inter, 'Helvetica Neue', Arial, sans-serif !important;
 }
 

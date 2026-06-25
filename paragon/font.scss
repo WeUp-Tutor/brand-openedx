@@ -1,0 +1,21 @@
+
+@font-face {
+   font-family: 'Barlow';
+   src: url('~@edx/brand/fonts/Barlow/Barlow-Regular.eot');
+   src: url('~@edx/brand/fonts/Barlow/Barlow-Regular.eot') format('embedded-opentype'),
+        url('~@edx/brand/fonts/Barlow/Barlow-Regular.woff2') format('woff2'),
+        url('~@edx/brand/fonts/Barlow/Barlow-Regular.woff') format('woff'),
+        url('~@edx/brand/fonts/Barlow/Barlow-Regular.ttf') format('truetype'),
+        url('~@edx/brand/fonts/Barlow/Barlow-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+$font-family-sans-serif:      'Barlow', Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji" !default;  
+$font-family-serif:           'Barlow', Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji" !default;  
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-sans-serif !default;
+
+
