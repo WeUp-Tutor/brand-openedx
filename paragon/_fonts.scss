@@ -1,4 +1,47 @@
 
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('~@edx/brand/fonts/Roboto/Roboto-Regular.eot');
+   src: url('~@edx/brand/fonts/Roboto/Roboto-Regular.eot') format('embedded-opentype'),
+        url('~@edx/brand/fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+        url('~@edx/brand/fonts/Roboto/Roboto-Regular.woff') format('woff'),
+        url('~@edx/brand/fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+        url('~@edx/brand/fonts/Roboto/Roboto-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('~@edx/brand/fonts/Roboto/Roboto-Medium.eot');
+   src: url('~@edx/brand/fonts/Roboto/Roboto-Medium.eot') format('embedded-opentype'),
+        url('~@edx/brand/fonts/Roboto/Roboto-Medium.woff2') format('woff2'),
+        url('~@edx/brand/fonts/Roboto/Roboto-Medium.woff') format('woff'),
+        url('~@edx/brand/fonts/Roboto/Roboto-Medium.ttf') format('truetype'),
+        url('~@edx/brand/fonts/Roboto/Roboto-Medium.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('~@edx/brand/fonts/Roboto/Roboto-Bold.eot');
+   src: url('~@edx/brand/fonts/Roboto/Roboto-Bold.eot') format('embedded-opentype'),
+        url('~@edx/brand/fonts/Roboto/Roboto-Bold.woff2') format('woff2'),
+        url('~@edx/brand/fonts/Roboto/Roboto-Bold.woff') format('woff'),
+        url('~@edx/brand/fonts/Roboto/Roboto-Bold.ttf') format('truetype'),
+        url('~@edx/brand/fonts/Roboto/Roboto-Bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 @font-face {
    font-family: 'Barlow';
    src: url('~@edx/brand/fonts/Barlow/Barlow-Regular.eot');
@@ -13,8 +56,8 @@
 }
 
 
-$font-family-sans-serif:      'Barlow', Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji" !default;  
-$font-family-serif:           'Barlow', Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji" !default;  
+$font-family-sans-serif:      'Roboto', 'Barlow', "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji" !default;  
+$font-family-serif:           'Roboto', 'Barlow', "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji" !default;  
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:            $font-family-sans-serif !default;
 
